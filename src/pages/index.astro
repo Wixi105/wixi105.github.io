@@ -4,7 +4,6 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import LinkButton from "@components/LinkButton.astro";
-import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
@@ -14,8 +13,6 @@ import { SOCIALS } from "@config";
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
@@ -50,11 +47,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <p>
         In addition to my work, I am currently learning Golang and have
-        experience using Vue JS. As a developer, I am always looking to expand
-        my skillset and tackle new challenges. I am excited to share my latest
-        projects and insights into the world of software engineering and
-        cybersecurity on my website. Thank you for visiting, and I hope you find
-        my content informative and engaging.
+        experience using Vue JS, Tailwind, and Laravel. As a developer, I am
+        always looking to expand my skillset and tackle new challenges.
+      </p>
+      <p>
+        I am excited to share my latest projects and insights into the world of
+        software engineering and cybersecurity on my website. Thank you for
+        visiting, and I hope you find my content informative and engaging.
       </p>
       {
         // only display if at least one social link is enabled
