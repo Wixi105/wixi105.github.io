@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Eric Junior's Blog</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,19 +41,20 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Welcome to my personal blog! My name is Eric Junior. My day-to-day work
+        involves using C#, but my interests go beyond my professional duties. I
+        am passionate about cybersecurity, specifically in the areas of reverse
+        engineering/binary exploitation, as well as network security. I also
+        love playing basketball.
       </p>
+
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        In addition to my work, I am currently learning Golang and have
+        experience using Vue JS. As a developer, I am always looking to expand
+        my skillset and tackle new challenges. I am excited to share my latest
+        projects and insights into the world of software engineering and
+        cybersecurity on my website. Thank you for visiting, and I hope you find
+        my content informative and engaging.
       </p>
       {
         // only display if at least one social link is enabled
@@ -65,28 +66,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         )
       }
     </section>
-
-    <Hr />
-
-    {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          <Hr />
-        </>
-      )
-    }
 
     <section id="recent-posts">
       <h2>Recent Posts</h2>
