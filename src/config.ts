@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Eric Junior",
   desc: "My personal blog to cover topics on tech, philoshopy, and anime.",
   title: "Eric Junior's Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "miyamoto.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
 };
