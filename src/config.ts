@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://wixi105.github.io/",
   author: "Eric Junior",
   desc: "My personal blog to cover topics on tech, philoshopy, and anime.",
-  title: "Eric Junior's Blog",
+  title: "Wixi's Exploits",
   ogImage: "miyamoto.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
