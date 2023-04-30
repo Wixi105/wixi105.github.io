@@ -23,7 +23,7 @@ const projects: Object[] = [
         externalLink: "https://wixi-dash.netlify.app",
         title: "Dashboard",
         status:"Completed",
-        description: "Dashboard view for CRM",
+        description: "Dashboard view for CRM. Desktop view only.",
         active: true,
         technologies: ["D3.js","Vue 3","Tailwind"]
     }
