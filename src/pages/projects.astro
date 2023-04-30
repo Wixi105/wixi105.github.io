@@ -1,0 +1,36 @@
+---
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import Footer from "@components/Footer.astro";
+import ProjectCard from "@components/ProjectCard";
+import Main from "@layouts/Main.astro";
+import getSortedProjects from "@utils/getSortedProjects";
+
+const sortedProjects = getSortedProjects;
+---
+
+<Layout>
+  <Header activeNav="projects" />
+  <Main pageTitle="Projects" pageDesc="Completed and Works in Progress">
+    {
+      sortedProjects.map(
+        ({ title, description, technologies, status, externalLink }) => 
+          <ProjectCard
+            title={title}
+            description={description}
+            technologies={technologies}
+            status={status}
+            externalLink={externalLink}
+          />
+        
+      )
+    }
+  </Main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+  }
+</style>
