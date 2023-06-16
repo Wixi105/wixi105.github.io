@@ -1,6 +1,6 @@
 ---
 author: Eric Junior
-pubDatetime: 2022-06-16T00:00:00Z
+pubDatetime: 2022-06-16T01:35:00Z
 title: Finding joy by embracing pain
 postSlug: finding-joy-by-embracing-pain
 featured: true
