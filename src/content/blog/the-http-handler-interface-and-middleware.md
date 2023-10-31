@@ -16,7 +16,7 @@ description:
 ---
 Having immersed myself in Golang for a considerable part of 2023, along with crafting small-scale web and CLI projects, I owe a significant portion of my insights to Alex Edward's enlightening book, 'Let’s Go'. With this newfound understanding, I'm excited to share my knowledge. This article is dedicated to exploring the essence of the http.Handler interface and its pivotal connection to integrating middleware in Go web applications.
 
-## Table of Contents
+### Table of Contents
 
 - [The Basics of `http.Handler`](#the-basics-of-httphandler)
 - [The Role of `http.ServeMux`](#the-role-of-httpservemux)
