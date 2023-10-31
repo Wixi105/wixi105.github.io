@@ -1,6 +1,6 @@
 ---
 author: Eric Junior
-pubDatetime: 2022-06-16T01:35:00Z
+pubDatetime: 2023-06-16T01:35:00Z
 title: Finding joy by embracing pain
 postSlug: finding-joy-by-embracing-pain
 featured: true
@@ -23,7 +23,7 @@ Within the depths of introspection, a relentless voice emerges, incessantly beli
 
 All this heaviness, supplemented by the fact that the whole world seems to be working against you, and nothing is going according to plan, it feels like you have been forsaken by a greater power, cast into desolation by the powers that be. This is the end. Maybe, just maybe...  
 
-### God has favorites, and I am not one of them.
+### God has favorites, and I am not one of them
 
 ***The voices have won you over.***
 
